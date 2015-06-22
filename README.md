@@ -14,7 +14,9 @@ So how much will this cost me?
   * summary(property)
   * friends(property)
   * add_friend(method)
+    * name(arg)
   * remove_friend(method)
+    * name(arg)
   * view_friends(method)
 
 ##Gallery(class)
@@ -23,3 +25,4 @@ So how much will this cost me?
   * delete_photo(method)
   * add_summary(method)
   * tag_photo(method)
+    * name(arg)
