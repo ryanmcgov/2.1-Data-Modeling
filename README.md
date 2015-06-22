@@ -13,7 +13,8 @@ So how much will this cost me?
   * @name
   * @summary
   * @friends
-  * photos = Gallery
+  * @photos = Gallery
+  * @user_id
   * .add_friend
     * name-arg
   * .remove_friend
@@ -36,7 +37,7 @@ So how much will this cost me?
   * .add_summary
     * summary-arg
   * .tag_photo
-    * name-arg
+    * user(user_id)-arg
     
 ## Group(class)
   * @name
