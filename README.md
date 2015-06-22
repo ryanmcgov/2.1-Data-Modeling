@@ -10,37 +10,40 @@ So how much will this cost me?
 
 
 ## User(class)
-  * name(property)
-  * summary(property)
-  * friends(property)
-  * add_friend(method)
-    * name(arg)
-  * remove_friend(method)
-    * name(arg)
-  * view_friends(method)
+  * @name
+  * @summary
+  * @friends
+  * photos = Gallery
+  * .add_friend
+    * name-arg
+  * .remove_friend
+    * name-arg
+  * .view_friends
 
 ## Gallery(class)
-  * name(property)
-  * photos(property)
-  * add_photo(method)
-  * delete_photo(method)
-  * sort(method)
-    * by_name(arg)
-    * by_date(arg)
+  * @name
+  * @photos
+  * .add_photo
+    * Photo.add_summary
+    * Photo.tag_photo
+  * .delete_photo
+  * .sort
+    * by_name-arg
+    * by_date-arg
 
 
-## Photo
-  * add_summary(method)
-    * summary(arg)
-  * tag_photo(method)
-    * name(arg)
+## Photo(class)
+  * .add_summary
+    * summary-arg
+  * .tag_photo
+    * name-arg
     
-## Group
-  * name(property)
-  * members(property)
-  * photos(property)
-  * add_photo(method)
-  * join_group(method)
-  * leave_group(method)
-  * comment_on_photo(method)
-    * comment(arg)
+## Group(class)
+  * @name
+  * @members
+  * @photos
+  * .add_photo
+  * .join_group
+  * .leave_group
+  * .comment_on_photo
+    * comment-arg
