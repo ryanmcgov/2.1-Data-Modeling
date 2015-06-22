@@ -43,4 +43,4 @@ So how much will this cost me?
   * join_group(method)
   * leave_group(method)
   * comment_on_photo(method)
-    *comment(arg)
+    * comment(arg)
