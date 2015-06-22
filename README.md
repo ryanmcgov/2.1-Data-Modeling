@@ -19,10 +19,28 @@ So how much will this cost me?
     * name(arg)
   * view_friends(method)
 
-##Gallery(class)
+## Gallery(class)
   * name(property)
+  * photos(property)
   * add_photo(method)
   * delete_photo(method)
+  * sort(method)
+    * by_name(arg)
+    * by_date(arg)
+
+
+## Photo
   * add_summary(method)
+    * summary(arg)
   * tag_photo(method)
     * name(arg)
+    
+## Group
+  * name(property)
+  * members(property)
+  * photos(property)
+  * add_photo(method)
+  * join_group(method)
+  * leave_group(method)
+  * comment_on_photo(method)
+    *comment(arg)
